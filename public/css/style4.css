@@ -1,0 +1,213 @@
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .header__logo {
+    height: 5.2rem;
+  }
+
+  header {
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to right bottom, #ebdfb4, #ee6d95),
+      #161415 url(../img/shape.png) no-repeat top center;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    overflow: hidden;
+    padding: 1rem;
+  }
+
+  .sturrd__btn {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: inline-block;
+    border-radius: 2.5rem;
+    transition: all 0.3s;
+    font-size: 1.6rem;
+    background: #ebdfb4;
+    border-color: #ebdfb4;
+    color: #fff;
+    font-weight: 500;
+    box-shadow: 0px 20px 30px 0px rgba(150, 6, 52, 0.2) !important;
+    outline: none !important;
+  }
+
+  .sturrd__btn:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(#000, 0.2);
+    color: #fff;
+  }
+
+  .sturrd__btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+
+  .sturrd__btn:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(#000, 0.2);
+  }
+
+  .sturrd__btn--orange {
+    background-color: #ebdfb4;
+    color: #fff;
+  }
+
+  .sturrd__btn--orange::after {
+    background-color: #ebdfb4;
+  }
+
+  .sturrd__btn::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+
+  .btn--animated {
+    animation: moveInBottom 0.5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+  }
+
+  .header-primary-1 {
+    margin-top: 10rem;
+  }
+
+  .header-primary--main {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .header-primary--sub {
+    padding-bottom: 4rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+  }
+
+  .header-primary-2 {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-primary--image {
+    width: 45%;
+  }
+
+  .get__sturrd-btn {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    border-color: transparent;
+    outline: none !important;
+  }
+
+  .get__sturrd-btn:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(#000, 0.2);
+  }
+
+  .get__sturrd-btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+
+  .get__sturrd-btn:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(#000, 0.2);
+  }
+
+  .btn--orange {
+    background-color: #ebdfb4;
+    color: #fff;
+  }
+
+  .btn--orange::after {
+    background-color: #ebdfb4;
+  }
+
+  .get__sturrd-btn::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+
+  .btn--animated {
+    animation: moveInBottom 0.5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+  }
+
+  .section__illustration {
+    padding: 10rem 5rem 10rem 5rem;
+    background-color: #fff;
+  }
+
+  .illustration__container {
+    margin-bottom: 5rem;
+  }
+
+  .illustration {
+    width: 100%;
+  }
+
+  .illustration__text {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    padding-top: 4rem;
+    color: #707b8e;
+  }
+
+  .section__third {
+    padding: 10rem 5rem 10rem 5rem;
+    background-color: rgb(252, 250, 251);
+  }
+
+  .section__third-image {
+    width: 70%;
+  }
+
+  .section__third h2 {
+    color: #4d446b;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+  }
+
+  .section__third-text {
+    color: #707b8e;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-bottom: 5rem;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
